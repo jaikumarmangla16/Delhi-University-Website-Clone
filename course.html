@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>  
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+<title>Delhi University</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="Index.html"><img src="images/University_of_Delhi_logo.png"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="Index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <h1>Our Courses</h1>
+    </section>
+    <section class="course">
+        <h1> Courses We Offer</h1>
+        <p>There are a total 201 courses offered by Delhi University like MBBS, BTech etc. Courses are mainly classified under the three faculties of the central university, including arts, commerce and science.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Arts</h3>
+                <p>The university offers 70 post-graduate degrees. DU also offers MPhil in about 28 subjects. In addition to these, it offers 90+ Certificate courses and 28 Diplomas. There are 15 Advanced Diplomas offered in various languages.</p>
+            </div>
+            <div class="course-col">   
+                <h3>Commerce</h3>
+                <p>It is a centre of learning. Starting in the year 1949, the campus of the Delhi School of Economics houses the University of Delhi's Departments of Economics, Commerce, Sociology and Geography.</p>
+            </div>
+            <div class="course-col">
+                <h3>Science</h3>
+                <p>The university offers PhD courses, which may be awarded by any faculty of the university under ordinance VI-B. But, speciality and super speciality medical degrees like DM, DCh etc., could only be awarded by the faculty of medical sciences.</p>
+            </div>
+        </div>
+    </section>
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>The University of Delhi provides several amenities for its staff and students convenience. There is a post office and a bank on campus for the use by the University community as well as for the general public. There is also a D.T.C. Bus Pass counter and a Railway Reservation Counter for use by the University Community. Gandhi Bhawan holds several programs to further Gandhiji's ideals. The Cooperative Store makes items of everyday use available at discounted price and is run by the University employees. The WUS Health Center provides comprehensive health services for the University community. The Computer Center, the University Press and the University Science Instrumentation Center are some of the other facilities which can be used by the students and staff of the University. The University Guest Houses can be used by the University staff to house guests</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png">
+                <h3>World Class Library</h3>
+                <p>Having more than 37 libraries in its fold, the DULS is accomplishing its task of reaching to wider academic community.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/basketball.png">
+                <h3>World Largest Play Ground</h3>
+                <p>Has a multi-purpose arena with both outdoor and indoor facilities.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/cafeteria.png">
+                <h3>Tasty and Healthy Food</h3>
+                <p>The prices of the food items are easily affordable by the students. The quality of food items is regularly monitored by committee.</p>
+            </div>
+        </div>
+    </section>
+   
+    <!-----------------Footer--------------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>The University of Delhi is a premier university of the country with a venerable legacy and international acclaim <br>for highest academic standards, diverse educational programmes, distinguished faculty,<br> illustrious alumni, varied co-curricular activities and modern infrastructure. </p>
+    <div class="icon">
+        <img src="linkedin.svg">
+        <img src="twitter.svg">
+        <img src="instagram.svg">
+        <img src="facebook.svg">
+    </div>
+    <div class="icon2">
+        <p>Made with <img src="heart-solid.svg"> by JAI KUMAR</p></div>
+</section>
+ <!-----------------JS for toggel menu----------------->
+<script>
+var navlinks = document.getElementById("nav-Links")
+function showMenu() {
+    navlinks.style.right="0px"; 
+}
+function hideMenu() {
+    navlinks.style.right="0px"    
+}
+</script>
+
+</body>
+</html>

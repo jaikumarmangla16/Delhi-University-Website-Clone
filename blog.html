@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>  
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+<title>Delhi University</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="Index.html"><img src="images/University_of_Delhi_logo.png"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="Index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <h1>Our Certificate & Online Programs for 2023</h1>
+    </section>
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+            <img src="images/certificate.jpg">
+            <h2>Our Certificate & Online Programs for 2023</h2>
+            <p>Three-day International Seminar "Professionalization of Adult & Lifelong Literacy under New India Literacy program ( 2022- 2027) under Education Policy 2020" - Department of Adult, Continuing Education & Extension (January 4-6, 2023)</p>
+            <br>
+            <p>Applications are invites for practical sessions on Mental Health & Stress Management - Gandhi Bhawan (Last date - 5th January 2023)</p>
+            <br>
+            <p>International Conference on Academic Libraries (ICAL-2023) :- Delhi University Library System (April 5 - 8, 2023)</p>
+            <br>
+            <p>27th International Conference on Psychology and Technology: Shaping the World - Department of Psychology (15th -17th February 2023)</p>
+            <br>
+            <p>International Conference on Graphs, Networks and Combinatorics (ICGNC 2023) - Ramanujan College (January 10-12, 2023)</p>
+            <div class =comment-box>
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name"></imput>
+                    <input type="email" placeholder="Enter Email"></imput>
+                    <textarea rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+            <span>Business Analytics</span>
+            <span>21</span>
+            </div>
+            <div>
+            <span>Data Science</span>
+            <span>28</span>
+            </div>
+            <div>
+            <span>Machine learning</span>
+            <span>15</span>
+            </div>
+            <div>
+            <span>Computer Science</span>
+            <span>34</span>
+            </div>
+            <div>
+            <span>AutoCAD</span>
+            <span>42</span>
+            </div>
+            <div>
+            <span>Journalism</span>
+            <span>22</span>
+            </div>
+            <div>
+            <span>Commerce</span>
+            <span>30</span>
+            </div>
+        </div>    
+        </div>
+        </div>
+    </section>
+    
+    <!-----------------Footer--------------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>The University of Delhi is a premier university of the country with a venerable legacy and international acclaim <br>for highest academic standards, diverse educational programmes, distinguished faculty,<br> illustrious alumni, varied co-curricular activities and modern infrastructure. </p>
+    <div class="icon">
+        <img src="linkedin.svg">
+        <img src="twitter.svg">
+        <img src="instagram.svg">
+        <img src="facebook.svg">
+    </div>
+    <div class="icon2">
+        <p>Made with <img src="heart-solid.svg"> by JAI KUMAR</p></div>
+</section>
+ <!-----------------JS for toggel menu----------------->
+<script>
+var navlinks = document.getElementById("nav-Links")
+function showMenu() {
+    navlinks.style.right="0px"; 
+}
+function hideMenu() {
+    navlinks.style.right="0px"    
+}
+</script>
+
+</body>
+</html>
